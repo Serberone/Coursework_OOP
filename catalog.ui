@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Catalog</class>
+ <widget class="QDialog" name="Catalog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1137</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Каталог</string>
+  </property>
+  <widget class="QTableWidget" name="catalogForm">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1131</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Название</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Кол-во глав</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Статус</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Перевод</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Описание</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Жанр</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Автор</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Издатель</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>540</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Фильтрация каталога</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="use_filtr">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>584</y>
+     <width>151</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Фильтр</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="filtr">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>583</y>
+     <width>251</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>583</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <item>
+    <property name="text">
+     <string>По названию</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>По жанру</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>По автору</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>По издателю</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
